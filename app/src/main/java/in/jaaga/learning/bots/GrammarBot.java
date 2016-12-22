@@ -16,7 +16,7 @@ public class GrammarBot extends Bot {
     @Override
     public void onStart() {
         super.onStart();
-        sender.send(new ChatItem("what is the past tense form of the verbs"));
+        sender.send(new ChatItem("What is the past tense form of the verbs?"));
         showPrompt();
     }
 
